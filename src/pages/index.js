@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import proPic from "../../public/images/profile/proPic1.png"
 import AnimatedText from '@/components/AnimatedText'
+import Link from 'next/link'
+import { LinkArrow } from '@/components/Icons'
 
 export default function Home() {
   return (
@@ -18,9 +20,21 @@ export default function Home() {
                 <Image src={proPic} alt="shamly" className='w-full h-auto '/>
               </div>
               <div className='w-1/2 flex flex-col items-center self-center'>
-                <p>hey there,I&apos;m</p>
+                <p className='my-4 w-full text-base font-medium'>hey there,I&apos;m</p>
                 <AnimatedText text="Shamly Shanawaz" className='!text-6xl !text-left'/>
-                <p>A technically competent and self-motivated undergraduate with qualitative academic college experience in the field of ICT. An effective team player who leverages technical, leadership and communication skills to achieve goals and one who continuously seeks opportunities to master new technologies.</p>
+                <p className='my-4 text-base font-medium'>A technically competent and self-motivated undergraduate with qualitative academic college experience in the field of ICT. An effective team player who leverages technical, leadership and communication skills to achieve goals and one who continuously seeks opportunities to master new technologies.</p>
+                <div className='flex items-center self-start mt-2'>
+                  <Link href="/dummy.pdf" target={"_blank"} download={true}
+                  className='flex items-center bg-dark text-light p-2.5 px-6
+                  rounded-lg text-lg font-semibold hover:bg-light hover:text-dark  border-2 
+                  border-solid border-transparent hover:border-dark'>
+                    Resume <LinkArrow className={"w-6 ml-2"}/>
+                  </Link>
+                  <Link href="mailto:m.shamlyshanawaz@gmail.com" target={"_blank"}
+                  className='ml-4 text-lg font-medium capitalize text-dark underline'>
+                   Contact
+                  </Link>
+                </div>
               </div>
           </div>
         </Layout>
