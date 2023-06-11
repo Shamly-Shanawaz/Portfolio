@@ -33,7 +33,7 @@ export default function about() {
   return (
     <>
     <Head>
-        <title>Shamly | About Page</title>
+        <title>Shamly | About </title>
         <meta name="description" content="description"/>
     </Head>
     <main className='flex w-full flex-col items-center justify-center'>
