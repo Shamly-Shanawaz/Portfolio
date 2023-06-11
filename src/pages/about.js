@@ -6,6 +6,7 @@ import profile from "../../public/images/profile/DP2.jpg"
 import {useInView, useMotionValue,useSpring} from "framer-motion"
 import React, { useEffect, useRef } from 'react'
 import Skills from '@/components/Skills'
+import Education from '@/components/Education'
 
 const AnimatedNumbers= ({value})=>{
     const ref=useRef(null);
@@ -68,6 +69,7 @@ export default function about() {
                 
             </div>
             <Skills/>
+            <Education/>
         </Layout>
     </main>
     </>

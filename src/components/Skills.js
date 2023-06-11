@@ -9,6 +9,7 @@ const Skill=({name,x,y})=>{
          initial={{x:0,y:0}}
          whileInView={{x:x,y:y}}
          transition={{duration:1.5}}
+         viewport={{once:true}}
          >
            {name}
         </motion.div>
@@ -28,18 +29,20 @@ export default function Skills() {
         <Skill name="HTML" x="6vw" y="-1vw"/>
         <Skill name="CSS" x="-6vw" y="- 1vw"/>
         <Skill name="JavaScript" x="0vw" y="4vw"/>
-        <Skill name="C" x="0vw" y="-11vw"/>
-        <Skill name="Python" x="-19vw" y="0vw"/>
+        <Skill name="C" x="-2vw" y="-11vw"/>
+        <Skill name="Python" x="-18vw" y="4vw"/>
         <Skill name="Java" x="19vw" y="0vw"/>
-        <Skill name="PHP" x="0vw" y="11vw"/>
-        <Skill name="MySQL" x="-14vw" y="-8vw"/>
+        <Skill name="PHP" x="-4vw" y="11vw"/>
+        <Skill name="MySQL" x="-17vw" y="-6vw"/>
         <Skill name="MSSQL" x="14vw" y="-8vw"/>
-        <Skill name="MongoDB" x="14vw" y="8vw"/>
-        <Skill name="ReactJS" x="-5vw" y="-100vw"/>
-        <Skill name="ExpressJS" x="-5vw" y="-100vw"/>
-        <Skill name="Tailwind CSS" x="-5vw" y="-100vw"/>
-        <Skill name="AWS" x="-5vw" y="-100vw"/>
-        <Skill name="Docker" x="-5vw" y="-100vw"/>
+        <Skill name="MongoDB" x="12vw" y="9vw"/>
+        <Skill name="ReactJS" x="-5vw" y="-18vw"/>
+        <Skill name="NextJS" x="15vw" y="-16vw"/>
+        <Skill name="ExpressJS" x="-20vw" y="-14vw"/>
+        <Skill name="Frame Motion" x="-15vw" y="15vw"/>
+        <Skill name="Tailwind CSS" x="15vw" y="16vw"/>
+        <Skill name="AWS" x="32vw" y="0vw"/>
+        <Skill name="Docker" x="-32vw" y="0vw"/>
       </div>   
     </>
   )
