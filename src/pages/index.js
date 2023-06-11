@@ -24,7 +24,7 @@ export default function Home() {
                 <AnimatedText text="Shamly Shanawaz" className='!text-6xl !text-left'/>
                 <p className='my-4 text-base font-medium'>A technically competent and self-motivated undergraduate with qualitative academic college experience in the field of ICT. An effective team player who leverages technical, leadership and communication skills to achieve goals and one who continuously seeks opportunities to master new technologies.</p>
                 <div className='flex items-center self-start mt-2'>
-                  <Link href="/dummy.pdf" target={"_blank"} download={true}
+                  <Link href="/Shamly Shanawaz - Resume.pdf" target={"_blank"} download={true}
                   className='flex items-center bg-dark text-light p-2.5 px-6
                   rounded-lg text-lg font-semibold hover:bg-light hover:text-dark  border-2 
                   border-solid border-transparent hover:border-dark'>
