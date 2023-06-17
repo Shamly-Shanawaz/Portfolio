@@ -55,7 +55,7 @@ export default function about() {
                     
                     <div className='flex flex-col items-end justify-center'>
                         <span className='iniline-block text-7xl font-bold'>
-                            <AnimatedNumbers value="4"/>+
+                            <AnimatedNumbers value="3"/>+
                         </span>
                         <h2 className='text-xl font-medium capitalize text-dark/75'>projects completed</h2>
                     </div>
@@ -63,7 +63,7 @@ export default function about() {
                         <span className='iniline-block text-7xl font-bold'>
                             <AnimatedNumbers value="7"/>+
                         </span>
-                        <h2 className='text-xl font-medium capitalize text-dark/75'>years of experience</h2>
+                        <h2 className='text-xl font-medium capitalize text-dark/75'>years of coding</h2>
                     </div>
                 </div>
                 
