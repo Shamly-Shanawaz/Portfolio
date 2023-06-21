@@ -2,7 +2,7 @@ import AnimatedText from '@/components/AnimatedText'
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profile from "../../public/images/profile/DP2.jpg"
+import profile from "../../public/images/profile/img2.jpg"
 import {useInView, useMotionValue,useSpring} from "framer-motion"
 import React, { useEffect, useRef } from 'react'
 import Skills from '@/components/Skills'
@@ -39,7 +39,7 @@ export default function about() {
     </Head>
     <TransistionEffect/>
     <main className='flex w-full flex-col items-center justify-center dark:text-light'>
-        <Layout className='pt-10'>
+        <Layout className='pt-10 pb-0'>
             <AnimatedText text="Love What You Do" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
             <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
                 <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
