@@ -7,6 +7,7 @@ import {useInView, useMotionValue,useSpring} from "framer-motion"
 import React, { useEffect, useRef } from 'react'
 import Skills from '@/components/Skills'
 import Education from '@/components/Education'
+import TransistionEffect from '@/components/TransistionEffect'
 
 const AnimatedNumbers= ({value})=>{
     const ref=useRef(null);
@@ -36,6 +37,7 @@ export default function about() {
         <title>Shamly | About </title>
         <meta name="description" content="description"/>
     </Head>
+    <TransistionEffect/>
     <main className='flex w-full flex-col items-center justify-center dark:text-light'>
         <Layout className='pt-10'>
             <AnimatedText text="Love What You Do" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
