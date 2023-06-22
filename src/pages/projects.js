@@ -8,7 +8,7 @@ import React from 'react'
 import exotelImg from "../../public/images/projects/exotel.png"
 import hospitalImg from "../../public/images/projects/Hospital.png"
 import miningImg from "../../public/images/projects/mining kit.png"
-import shoeImg from "../../public/images/projects/shoe.png"
+import shoeImg from "../../public/images/projects/shoe2.png"
 import { motion } from 'framer-motion'
 import TransistionEffect from '@/components/TransistionEffect'
 
@@ -58,7 +58,7 @@ const Project =({title,tech,img,link,github,client,className})=>{
         md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]'/>
             {/* <Link href={link} target="_blank"
             className='w-full cursor-pointer overflow-hidden rounded-lg'> */}
-                <FramerImg src={img} alt={title} className={`w-full h-auto ${className}`} 
+                <FramerImg src={img} alt={title} className={`w-full h-auto max-h-[35vh] ${className}`} 
                     whileHover={{scale:1.05}}
                     transition={{duration:0.2}}
                 />
@@ -137,7 +137,6 @@ export default function projects() {
                     title="E-commerce Application"
                     tech="NextJS , ExpressJS , MongoDB , Tailwind CSS"
                     img={shoeImg}
-                    className='h-[30vh]'
                     />
                 </div>
                 <div className='col-span-6 sm:col-span-12'>
@@ -145,7 +144,6 @@ export default function projects() {
                      title="Mining Kit"
                     tech="C , Proteus"
                     img={miningImg}
-                    className='h-[30vh]'
                     />
                 </div>
             </div>
