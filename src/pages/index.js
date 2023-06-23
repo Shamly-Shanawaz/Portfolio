@@ -18,9 +18,9 @@ export default function Home() {
       <main className='flex items-center text-dark w-full max-h-screen dark:text-light '>
         <Layout className='pt-0 pb-0 md:pt-0 sm:pt-8 '>
           <div className='flex items-center justify-between w-full lg:flex-col'>
-              <div className="w-1/2 relative   md:mb-2 md:mr-5">
+              <div className="w-1/2 xs:w-full relative   md:mb-2 md:mr-5">
                 <Image src={proPic} alt="shamly" 
-                  className=' h-auto lg:hidden md:inline-block md:w-full  z-50'
+                  className=' h-auto lg:hidden md:inline-block md:w-full'
                   priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
               </div>

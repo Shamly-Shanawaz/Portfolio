@@ -106,10 +106,10 @@ export default function Navbar() {
             </nav>
             
 
-            <nav className='flex items-center justify-center flex-wrap mt-2 '>
+            <nav className='flex items-center justify-between flex-wrap mt-4 '>
                 <motion.a href="https://www.linkedin.com/in/shamly-shanawaz/" target={"_blank"}
                 whileHover={{y:-2}} whileTap={{scale:0.9}}
-                className='w-6 mr-3 sm:mx-1'>
+                className='w-6 mr-3 sm:mx-5'>
                     <LinkedInIcon/>
                 </motion.a>
                 <motion.a href="https://github.com/Shamly-Shanawaz" target={"_blank"}
