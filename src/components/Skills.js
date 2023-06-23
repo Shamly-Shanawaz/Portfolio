@@ -21,7 +21,7 @@ const SkillXS=({name})=>{
     <motion.div className='flex items-center justify-center rounded-full py-2 px-4 font-semibold
          bg-dark text-light shadow-dark  dark:text-dark dark:bg-light'
          whileHover={{scale:1.05}}
-         initial={{y:300}}
+         initial={{y:700}}
          whileInView={{y:0,transition:0.1,ease:"easeInOut"}}
          viewport={{once:true}}
          >
