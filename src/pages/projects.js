@@ -61,6 +61,8 @@ const Project =({title,tech,img,link,github,client,className})=>{
                 <FramerImg src={img} alt={title} className={`w-full h-auto max-h-[35vh] ${className}`} 
                     whileHover={{scale:1.05}}
                     transition={{duration:0.2}}
+                    priority 
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
             {/* </Link> */}
             <div className='w-full flex flex-col items-start justify-between mt-4'>
