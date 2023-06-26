@@ -28,7 +28,7 @@ export default function Home() {
                 <p className='my-4 w-full text-base font-medium'>hey there,I&apos;m</p>
                 <AnimatedText text="Shamly Shanawaz" className='!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'/>
                 <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                A technically competent and self-motivated undergraduate with qualitative academic college experience in the field of ICT. An effective team player who leverages technical, leadership and communication skills to achieve goals and one who continuously seeks opportunities to master new technologies.</p>
+                Greetings, earthlings! I try to create  websites that look cool and when I&apos;m not crafting , you&apos;ll find me sipping coffee,gaming or exploring the vast wonders of our world </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
                   <Link href="/Shamly Shanawaz - Resume.pdf" target={"_blank"} download={true}
                   className='flex items-center bg-dark text-light p-2.5 px-6
@@ -42,7 +42,7 @@ export default function Home() {
                   <Link href="mailto:m.shamlyshanawaz@gmail.com" target={"_blank"}
                   className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light
                   md:text-base'>
-                   Contact
+                   Lets Talk
                   </Link>
                 </div>
               </div>
