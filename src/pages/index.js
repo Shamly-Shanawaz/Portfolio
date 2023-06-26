@@ -42,7 +42,7 @@ export default function Home() {
                   <Link href="mailto:m.shamlyshanawaz@gmail.com" target={"_blank"}
                   className='ml-4 text-lg font-medium capitalize text-dark underline dark:text-light
                   md:text-base'>
-                   Lets Talk
+                   Let&apos;s Talk
                   </Link>
                 </div>
               </div>
